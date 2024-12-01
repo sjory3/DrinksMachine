@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrinksMachineWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eedb2bdb2cc1293e6abb4099d700222b7260baaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrinksMachineWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrinksMachineWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
