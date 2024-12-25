@@ -1,0 +1,63 @@
+﻿@page "/create-drink"
+@inject DrinkService DrinkService
+@using Website.Models
+
+<h3>Create a New Drink</h3>
+
+<EditForm Model="newDrink" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Name:</label>
+        <InputText @bind-Value="newDrink.Name" />
+    </div>
+
+    <h4>Liquids</h4>
+    @foreach (var liquid in newDrink.Liquids)
+    {
+        <div>
+            <label>Name:</label>
+            <InputText @bind-Value="liquid.Name" />
+            <label>Volume:</label>
+            <InputNumber @bind-Value="liquid.Volume" />
+        </div>
+    }
+    <button type="button" @onclick="AddLiquid">Add Liquid</button>
+
+    <h4>Alcohols</h4>
+    @foreach (var alcohol in newDrink.Alcohols)
+    {
+        <div>
+            <label>Name:</label>
+            <InputText @bind-Value="alcohol.Name" />
+            <label>Volume:</label>
+            <InputNumber @bind-Value="alcohol.Volume" />
+            <label>Alcohol Content:</label>
+            <InputNumber @bind-Value="alcohol.AlcoholContent" />
+        </div>
+    }
+    <button type="button" @onclick="AddAlcohol">Add Alcohol</button>
+
+    <button type="submit">Save Drink</button>
+</EditForm>
+
+@code {
+    private Drink newDrink = new Drink();
+
+    private void AddLiquid()
+    {
+        newDrink.Liquids.Add(new Liquid());
+    }
+
+    private void AddAlcohol()
+    {
+        newDrink.Alcohols.Add(new Alcohol());
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await DrinkService.SaveDrinkAsync(newDrink);
+        // Handle post-save logic, e.g., navigate to another page or show a success message
+    }
+}

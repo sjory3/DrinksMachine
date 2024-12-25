@@ -1,0 +1,7 @@
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.csproj.AssemblyReference.cache
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.AssemblyInfoInputs.cache
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.AssemblyInfo.cs
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.csproj.CoreCompileInputs.cache
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.sourcelink.json

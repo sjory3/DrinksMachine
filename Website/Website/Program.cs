@@ -1,5 +1,6 @@
 using Website.Client.Pages;
 using Website.Components;
+using Website.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+builder.Services.AddSingleton<DrinkService>();
 
 var app = builder.Build();
 
