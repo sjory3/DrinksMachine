@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ContainingType": "Website.Controllers.DrinksController",
+    "Method": "GetAlcohols",
+    "RelativePath": "api/Drinks/alcohols",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Website.Controllers.DrinksController",
+    "Method": "GetLiquids",
+    "RelativePath": "api/Drinks/liquids",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -14,12 +14,15 @@ namespace Website.Services
 
         public async Task<List<Liquid>> GetLiquidsAsync()
         {
-            return await _httpClient.GetFromJsonAsync<List<Liquid>>("data/Liquids.json");
+            List<Liquid>? liquids = await _httpClient.GetFromJsonAsync<List<Liquid>>("api/drinks/liquids");
+            return liquids ?? new List<Liquid>(); // Handle possible null reference return
         }
 
         public async Task<List<Alcohol>> GetAlcoholsAsync()
         {
-            return await _httpClient.GetFromJsonAsync<List<Alcohol>>("data/Alcohols.json");
+            List<Alcohol>? alcohols = await _httpClient.GetFromJsonAsync<List<Alcohol>>("api/drinks/alcohols");
+            return alcohols ?? new List<Alcohol>(); // Handle possible null reference return
         }
     }
+
 }

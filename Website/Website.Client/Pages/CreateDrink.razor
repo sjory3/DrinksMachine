@@ -86,6 +86,8 @@
     {
         availableLiquids = await DrinkDataService2.GetLiquidsAsync();
         availableAlcohols = await DrinkDataService2.GetAlcoholsAsync();
+        Console.WriteLine(availableLiquids[0].Name);
+        Console.WriteLine(availableAlcohols[0].Name);
     }
 
     private void OnLiquidSelected(ChangeEventArgs e)
