@@ -9,7 +9,10 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
 
+builder.Services.AddHttpClient();
+
 builder.Services.AddSingleton<DrinkService>();
+builder.Services.AddSingleton<DrinkDataService>(); // Ensure this is Singleton
 
 var app = builder.Build();
 

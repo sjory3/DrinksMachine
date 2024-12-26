@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "21C/m5IRCmk=",
-  "success": false,
+  "dgSpecHash": "PaTLnLZRq1s=",
+  "success": true,
   "projectFilePath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website.Client\\Website.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.11\\microsoft.aspnetcore.authorization.8.0.11.nupkg.sha512",
@@ -10,7 +10,6 @@
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.11\\microsoft.aspnetcore.components.forms.8.0.11.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.11\\microsoft.aspnetcore.components.web.8.0.11.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.11\\microsoft.aspnetcore.components.webassembly.8.0.11.nupkg.sha512",
-    "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\8.0.11\\microsoft.aspnetcore.components.webassembly.server.8.0.11.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.11\\microsoft.aspnetcore.metadata.8.0.11.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -33,15 +32,5 @@
     "C:\\Users\\mgj32\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.11.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Website.Client -> Website -> Website.Client.",
-      "libraryId": "Website.Client",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -454,8 +454,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.11",
-          "Website": "1.0.0"
+          "Microsoft.AspNetCore.Components.WebAssembly": "8.0.11"
         },
         "compile": {
           "bin/placeholder/Website.Client.dll": {}
@@ -1260,16 +1259,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Website -> Website.Client -> Website.",
-      "libraryId": "Website",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

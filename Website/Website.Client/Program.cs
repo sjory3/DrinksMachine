@@ -1,5 +1,24 @@
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Website.Client.Services;
 
-var builder = WebAssemblyHostBuilder.CreateDefault(args);
+namespace Website.Client
+{
+    public class Program
+    {
+        public static async Task Main(string[] args)
+        {
+            var builder = WebAssemblyHostBuilder.CreateDefault(args);
+            //builder.RootComponents.Add<App>("#app");
 
-await builder.Build().RunAsync();
+            builder.Services.AddSingleton<DrinkDataService2>(); // Register DrinkDataService
+            builder.Services.AddSingleton(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+
+            await builder.Build().RunAsync();
+        }
+    }
+}
+

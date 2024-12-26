@@ -1,6 +1,7 @@
 ﻿@page "/create-drink"
-@inject DrinkService DrinkService
-@using Website.Models
+@using Website.Client.Models
+@inject Website.Client.Services.DrinkDataService2 DrinkDataService2
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender: false))
 
 <h3>Create a New Drink</h3>
 
@@ -11,6 +12,9 @@
     <div>
         <label>Name:</label>
         <InputText @bind-Value="newDrink.Name" />
+
+        <label>Creator:</label>
+        <InputText @bind-Value="newDrink.Creator" />
     </div>
 
     <h4>Liquids</h4>
@@ -23,7 +27,19 @@
             <InputNumber @bind-Value="liquid.Volume" />
         </div>
     }
-    <button type="button" @onclick="AddLiquid">Add Liquid</button>
+    <div>
+        <label>Select Liquid:</label>
+        <select @onchange="OnLiquidSelected">
+            <option value="">Select a liquid</option>
+            @foreach (var liquid in availableLiquids)
+            {
+                <option value="@liquid.Name">@liquid.Name</option>
+            }
+        </select>
+        <label>Volume:</label>
+        <InputNumber @bind-Value="selectedLiquidVolume" />
+        <button type="button" @onclick="AddSelectedLiquid">Add Liquid</button>
+    </div>
 
     <h4>Alcohols</h4>
     @foreach (var alcohol in newDrink.Alcohols)
@@ -37,27 +53,73 @@
             <InputNumber @bind-Value="alcohol.AlcoholContent" />
         </div>
     }
-    <button type="button" @onclick="AddAlcohol">Add Alcohol</button>
+    <div>
+        <label>Select Alcohol:</label>
+        <select @onchange="OnAlcoholSelected">
+            <option value="">Select an alcohol</option>
+            @foreach (var alcohol in availableAlcohols)
+            {
+                <option value="@alcohol.Name">@alcohol.Name</option>
+            }
+        </select>
+        <label>Volume:</label>
+        <InputNumber @bind-Value="selectedAlcoholVolume" />
+        <label>Alcohol Content:</label>
+        <InputNumber @bind-Value="selectedAlcoholContent" />
+        <button type="button" @onclick="AddSelectedAlcohol">Add Alcohol</button>
+    </div>
 
     <button type="submit">Save Drink</button>
 </EditForm>
 
 @code {
     private Drink newDrink = new Drink();
+    private List<Liquid> availableLiquids = new();
+    private List<Alcohol> availableAlcohols = new();
+    private double selectedLiquidVolume;
+    private double selectedAlcoholVolume;
+    private double selectedAlcoholContent;
+    private string? selectedLiquidName;
+    private string? selectedAlcoholName;
 
-    private void AddLiquid()
+    protected override async Task OnInitializedAsync()
     {
-        newDrink.Liquids.Add(new Liquid());
+        availableLiquids = await DrinkDataService2.GetLiquidsAsync();
+        availableAlcohols = await DrinkDataService2.GetAlcoholsAsync();
     }
 
-    private void AddAlcohol()
+    private void OnLiquidSelected(ChangeEventArgs e)
     {
-        newDrink.Alcohols.Add(new Alcohol());
+        selectedLiquidName = e.Value?.ToString();
+    }
+
+    private void OnAlcoholSelected(ChangeEventArgs e)
+    {
+        selectedAlcoholName = e.Value?.ToString();
+    }
+
+    private void AddSelectedLiquid()
+    {
+        var selectedLiquid = availableLiquids.FirstOrDefault(l => l.Name == selectedLiquidName);
+        if (selectedLiquid != null)
+        {
+            newDrink.Liquids.Add(new Liquid { Name = selectedLiquid.Name, Volume = selectedLiquidVolume });
+        }
+    }
+
+    private void AddSelectedAlcohol()
+    {
+        var selectedAlcohol = availableAlcohols.FirstOrDefault(a => a.Name == selectedAlcoholName);
+        if (selectedAlcohol != null)
+        {
+            newDrink.Alcohols.Add(new Alcohol { Name = selectedAlcohol.Name, Volume = selectedAlcoholVolume, AlcoholContent = selectedAlcoholContent });
+        }
     }
 
     private async Task HandleValidSubmit()
     {
-        await DrinkService.SaveDrinkAsync(newDrink);
+        //await DrinkService.SaveDrinkAsync(newDrink);
+        await Task.CompletedTask;
         // Handle post-save logic, e.g., navigate to another page or show a success message
     }
 }

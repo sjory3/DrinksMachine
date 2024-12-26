@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "y8sFoU4CgPA=",
-  "success": false,
+  "dgSpecHash": "GTeczvlcnJA=",
+  "success": true,
   "projectFilePath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.11\\microsoft.aspnetcore.authorization.8.0.11.nupkg.sha512",
@@ -30,15 +30,5 @@
     "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.11\\microsoft.jsinterop.webassembly.8.0.11.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Website -> Website.Client -> Website.",
-      "libraryId": "Website",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

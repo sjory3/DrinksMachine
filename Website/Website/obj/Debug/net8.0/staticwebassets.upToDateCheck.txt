@@ -1,0 +1,6 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\data\Alcohols.json
+wwwroot\data\Liquids.json
+wwwroot\favicon.png

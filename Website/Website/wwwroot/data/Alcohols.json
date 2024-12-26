@@ -1,0 +1,19 @@
+{
+  "Alcohol": [
+    {
+      "Name": "Gin",
+      "Volume": 25,
+      "AlcoholContent": 40
+    },
+    {
+      "Name": "Rum",
+      "Volume": 25,
+      "AlcoholContent": 40
+    },
+    {
+      "Name": "Whisky",
+      "Volume": 25,
+      "AlcoholContent": 46
+    }
+  ]
+}

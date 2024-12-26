@@ -1,0 +1,16 @@
+{
+  "Liquids": [
+    {
+      "Name": "Cola",
+      "Volume": 250
+    },
+    {
+      "Name": "Fanta",
+      "Volume": 250
+    },
+    {
+      "Name": "Sprite",
+      "Wolume": 250
+    }
+  ]
+}

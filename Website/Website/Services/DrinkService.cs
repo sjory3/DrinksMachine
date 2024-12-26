@@ -1,4 +1,4 @@
-using Website.Models;
+using Website.Client.Models;
 
 namespace Website.Services
 {
