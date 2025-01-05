@@ -1032,9 +1032,6 @@ C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\n
 C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\refint\Website.Client.dll
 C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\Website.Client.pdb
 C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\ref\Website.Client.dll
-C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\06xhlk2478-otbuzr0tn8.gz
-C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\306m1unmgj-fkqd08h59l.gz
-C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\gai494obq8-8e9ellgouk.gz
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map
@@ -2072,3 +2069,6 @@ C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\r
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\06xhlk2478-6wyj24tw22.gz
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\306m1unmgj-yq73hq3fa4.gz
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\gai494obq8-78vj1i1zwh.gz
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\06xhlk2478-38c86zjpt3.gz
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\306m1unmgj-b75bwzocai.gz
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\gai494obq8-gxbcone546.gz

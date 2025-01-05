@@ -1,4 +1,4 @@
-namespace Website.Client.Models
+namespace Website.Models
 {
     public class Liquid
     {

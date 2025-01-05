@@ -43,3 +43,13 @@ C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\s
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\staticwebassets.build.json

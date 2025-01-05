@@ -1,31 +1,35 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\mgj32\\Documents\\DrinksMachine\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Website.bundle.scp.css",
       "PackagePath": "staticwebassets\\Website.ny7zzouvch.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\mgj32\\Documents\\DrinksMachine\\Website\\Website\\wwwroot\\app.css",
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\mgj32\\Documents\\DrinksMachine\\Website\\Website\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\mgj32\\Documents\\DrinksMachine\\Website\\Website\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\mgj32\\Documents\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Alcohols.json",
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Alcohols.json",
       "PackagePath": "staticwebassets\\data\\Alcohols.json"
     },
     {
-      "Id": "C:\\Users\\mgj32\\Documents\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Liquids.json",
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Drinks.json",
+      "PackagePath": "staticwebassets\\data\\Drinks.json"
+    },
+    {
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Liquids.json",
       "PackagePath": "staticwebassets\\data\\Liquids.json"
     },
     {
-      "Id": "C:\\Users\\mgj32\\Documents\\DrinksMachine\\Website\\Website\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

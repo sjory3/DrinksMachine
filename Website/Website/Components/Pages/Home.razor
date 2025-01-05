@@ -1,7 +1,145 @@
 ﻿@page "/"
+@using Website.Models
+@inject Website.Services.DrinkDataService DrinkDataService
+@inject Website.Services.DrinkService DrinkService
+@rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
+<h3>Drinks</h3>
+@if (saveddrinks == null){
+    <p> loading...</p>
+}
+else{
+    <ul>
+        @foreach (var drink in saveddrinks)
+        {
+            <li>@drink.Name by @drink.Creator</li>
+        }
+    </ul>
+}
 
-Welcome to your new app.
+
+<h3>Create a New Drink</h3>
+
+<EditForm Model="newDrink" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Name:</label>
+        <InputText @bind-Value="newDrink.Name" />
+
+        <label>Creator:</label>
+        <InputText @bind-Value="newDrink.Creator" />
+    </div>
+
+    <h4>Liquids</h4>
+    @foreach (var liquid in newDrink.Liquids)
+    {
+        <div>
+            <label>Name:</label>
+            <InputText @bind-Value="liquid.Name" />
+            <label>Volume:</label>
+            <InputNumber @bind-Value="liquid.Volume" />
+        </div>
+    }
+    <div>
+        <label>Select Liquid:</label>
+        <select @onchange="OnLiquidSelected">
+            <option value="">Select a liquid</option>
+            @foreach (var liquid in availableLiquids)
+            {
+                <option value="@liquid.Name">@liquid.Name</option>
+            }
+        </select>
+        <label>Volume:</label>
+        <InputNumber @bind-Value="selectedLiquidVolume" />
+        <button type="button" @onclick="AddSelectedLiquid">Add Liquid</button>
+    </div>
+
+    <h4>Alcohols</h4>
+    @foreach (var alcohol in newDrink.Alcohols)
+    {
+        <div>
+            <label>Name:</label>
+            <InputText @bind-Value="alcohol.Name" />
+            <label>Volume:</label>
+            <InputNumber @bind-Value="alcohol.Volume" />
+            <label>Alcohol Content:</label>
+            <InputNumber @bind-Value="alcohol.AlcoholContent" />
+        </div>
+    }
+    <div>
+        <label>Select Alcohol:</label>
+        <select @onchange="OnAlcoholSelected">
+            <option value="">Select an alcohol</option>
+            @foreach (var alcohol in availableAlcohols)
+            {
+                <option value="@alcohol.Name">@alcohol.Name</option>
+            }
+        </select>
+        <label>Volume:</label>
+        <InputNumber @bind-Value="selectedAlcoholVolume" />
+        <label>Alcohol Content:</label>
+        <InputNumber @bind-Value="selectedAlcoholContent" />
+        <button type="button" @onclick="AddSelectedAlcohol">Add Alcohol</button>
+    </div>
+
+    <button type="submit">Save Drink</button>
+</EditForm>
+
+@code {
+
+	private List<Drink>? saveddrinks;
+    private Drink newDrink = new Drink();
+    private List<Liquid> availableLiquids = new();
+    private List<Alcohol> availableAlcohols = new();
+    private double selectedLiquidVolume;
+    private double selectedAlcoholVolume;
+    private double selectedAlcoholContent;
+    private string? selectedLiquidName;
+    private string? selectedAlcoholName;
+
+    protected override async Task OnInitializedAsync()
+    {
+        saveddrinks = await DrinkDataService.GetDrinksAsync();
+        availableLiquids = await DrinkDataService.GetLiquidsAsync();
+        availableAlcohols = await DrinkDataService.GetAlcoholsAsync();
+    }
+
+    private void OnLiquidSelected(ChangeEventArgs e)
+    {
+        selectedLiquidName = e.Value?.ToString();
+    }
+
+    private void OnAlcoholSelected(ChangeEventArgs e)
+    {
+        selectedAlcoholName = e.Value?.ToString();
+    }
+
+    private void AddSelectedLiquid()
+    {
+        var selectedLiquid = availableLiquids.FirstOrDefault(l => l.Name == selectedLiquidName);
+        if (selectedLiquid != null)
+        {
+            newDrink.Liquids.Add(new Liquid { Name = selectedLiquid.Name, Volume = selectedLiquidVolume });
+        }
+    }
+
+    private void AddSelectedAlcohol()
+    {
+        var selectedAlcohol = availableAlcohols.FirstOrDefault(a => a.Name == selectedAlcoholName);
+        if (selectedAlcohol != null)
+        {
+            newDrink.Alcohols.Add(new Alcohol { Name = selectedAlcohol.Name, Volume = selectedAlcoholVolume, AlcoholContent = selectedAlcoholContent });
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+		Console.WriteLine("Saving drink buton clicked");
+        await DrinkService.SaveDrinkAsync(newDrink);
+        // Handle post-save logic, e.g., navigate to another page or show a success message
+    }
+}

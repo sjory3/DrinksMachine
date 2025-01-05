@@ -134,3 +134,4 @@ C:\Users\mgj32\Documents\DrinksMachine\Website\Website\obj\Debug\net8.0\refint\W
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.pdb
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website\obj\Debug\net8.0\Website.genruntimeconfig.cache
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website\obj\Debug\net8.0\ref\Website.dll
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website\bin\Debug\net8.0\Newtonsoft.Json.dll
