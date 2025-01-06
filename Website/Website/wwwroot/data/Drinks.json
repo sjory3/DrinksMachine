@@ -61,5 +61,22 @@
         "AlcoholContent": 45.0
       }
     ]
+  },
+  {
+    "Name": "test",
+    "Creator": "me",
+    "Liquids": [
+      {
+        "Name": "Apple Juice",
+        "Volume": 11.0
+      }
+    ],
+    "Alcohols": [
+      {
+        "Name": "Vodka",
+        "Volume": 252.0,
+        "AlcoholContent": 0.0
+      }
+    ]
   }
 ]

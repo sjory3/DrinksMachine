@@ -1,5 +1,6 @@
 using System.Net.Http.Json;
 using Website.Models;
+using Newtonsoft.Json;
 
 namespace Website.Services
 {
@@ -10,6 +11,17 @@ namespace Website.Services
         public DrinkDataService(HttpClient httpClient)
         {
             _httpClient = httpClient;
+        }
+
+        public async Task<Task> SaveDrinkAsync(Drink drink)
+        {
+            List<Drink> drinks = await GetDrinksAsync();
+            drinks.Add(drink);
+            string updatedJson = JsonConvert.SerializeObject(drinks, Formatting.Indented);
+            await File.WriteAllTextAsync("wwwroot/data/Drinks.json", updatedJson);
+
+
+            return Task.CompletedTask; // Placeholder for actual database logic
         }
 
         public async Task<List<Drink>> GetDrinksAsync()

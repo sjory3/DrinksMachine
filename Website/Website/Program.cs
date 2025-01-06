@@ -11,7 +11,6 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddHttpClient();
 
-builder.Services.AddSingleton<DrinkService>();
 //builder.Services.AddSingleton<DrinkDataService>(); // Ensure this is Singleton
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<DrinkDataService>(client =>
