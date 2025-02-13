@@ -6,11 +6,14 @@
 <PageTitle>Home</PageTitle>
 
 <h3>Drinks</h3>
+<!--Checks to see if the list of drinks exist and create Cards with each drink -->
+<!--Change in the future so that the drinks witch content are not in the machine they are greyed out-->
 @if (saveddrinks == null){
     <p> loading...</p>
 }
 else{
     <ul>
+        <!-- Change the display of drinks to be cards with the design from the book -->
         @foreach (var drink in saveddrinks)
         {
             <li>@drink.Name by @drink.Creator</li>
@@ -19,7 +22,7 @@ else{
 }
 
 <button type="button" @onclick="OpenModal">Create New Drink</button>
-
+<!--Change the create new drink to be like the book and change the selection from alcohol and liquids to whats currently in the machine-->
 @if (isModalOpen)
 {
     <div class="modal" style="display:block;">
@@ -97,7 +100,7 @@ else{
     </div>
 }
 @code {
-
+	//Create a list for alcohol and liquids that are in the machine
 	private List<Drink>? saveddrinks;
     private Drink newDrink = new Drink();
     private List<Liquid> availableLiquids = new();
@@ -109,6 +112,7 @@ else{
     private string? selectedAlcoholName;
     private bool isModalOpen = false;
 
+	//gets the drinks, alcohols and liquids from the database
     protected override async Task OnInitializedAsync()
     {
         saveddrinks = await DrinkDataService.GetDrinksAsync();
@@ -137,6 +141,7 @@ else{
         selectedAlcoholName = e.Value?.ToString();
     }
 
+	//Add the selected liquid to the drink in the modal
     private void AddSelectedLiquid()
     {
         var selectedLiquid = availableLiquids.FirstOrDefault(l => l.Name == selectedLiquidName);
@@ -145,7 +150,7 @@ else{
             newDrink.Liquids.Add(new Liquid { Name = selectedLiquid.Name, Volume = selectedLiquidVolume });
         }
     }
-
+	//Add the selected alcohol to the drink in the modal
     private void AddSelectedAlcohol()
     {
         var selectedAlcohol = availableAlcohols.FirstOrDefault(a => a.Name == selectedAlcoholName);
@@ -155,6 +160,7 @@ else{
         }
     }
 
+	//Save the drink to the database
     private async Task HandleValidSubmit()
     {
 		Console.WriteLine("Saving drink buton clicked");

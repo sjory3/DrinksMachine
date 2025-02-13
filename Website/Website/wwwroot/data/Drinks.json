@@ -78,5 +78,16 @@
         "AlcoholContent": 0.0
       }
     ]
+  },
+  {
+    "Name": "gin hash",
+    "Creator": "Mester Matti",
+    "Liquids": [
+      {
+        "Name": "Apple Juice",
+        "Volume": 100.0
+      }
+    ],
+    "Alcohols": []
   }
 ]
