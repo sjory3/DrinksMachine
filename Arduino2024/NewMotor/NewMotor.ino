@@ -27,6 +27,8 @@ void setup()
    Serial.begin(115200);
    Serial.println("ESP32 is ready");
 
+   pinMode(13, OUTPUT);
+
    stepper.attach( stepPin, dirPin );   
    stepper.setSpeedSteps(20000);  // = 75 steps/second (steps in 10 seconds)
    stepper.setRampLen(500);
@@ -36,6 +38,7 @@ void setup()
 void loop()
 {
     if (Serial.available()>0){
+      digitalWrite(13, HIGH);
       String command = Serial.readStringUntil('/n'); //read communication until next line
       command.trim();//removes any spaces before and after
 
@@ -62,6 +65,9 @@ void loop()
         }
       }
     }
+    digitalWrite(13, HIGH);
+    delay(1000);
+    digitalWrite(13, LOW);
     
 }
 

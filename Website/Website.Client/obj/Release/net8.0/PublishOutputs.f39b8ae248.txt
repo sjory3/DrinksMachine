@@ -1,0 +1,2 @@
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\publish\emcc-props.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\publish\web.config

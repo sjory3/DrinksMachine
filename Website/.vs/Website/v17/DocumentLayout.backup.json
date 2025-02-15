@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\services\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\services\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\services\\controllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\services\\controllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\services\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\services\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CarouselController.cs",
               "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\CarouselController.cs",
               "RelativeDocumentMoniker": "Website\\Services\\CarouselController.cs",
@@ -127,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ControllerService.cs",
               "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\ControllerService.cs",
               "RelativeDocumentMoniker": "Website\\Services\\ControllerService.cs",
               "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\ControllerService.cs",
               "RelativeToolTip": "Website\\Services\\ControllerService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCQAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T11:26:13.583Z",
               "EditorCaption": ""
@@ -160,8 +160,7 @@
               "RelativeToolTip": "Website\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAKIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:16.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T08:25:16.84Z"
             },
             {
               "$type": "Document",

@@ -13,7 +13,7 @@ namespace Website.Services
         {
             try
             {
-                _serialPort = new SerialPort("/dev/ttyUSB0", 115200); // Adjust the port name and baud rate as needed
+                _serialPort = new SerialPort("/dev/ttyACM0", 115200); // Adjust the port name and baud rate as needed
                 _serialPort.Open();
             }
             catch (Exception ex)

@@ -1,0 +1,2 @@
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Release\net8.0\staticwebassets.build.json
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Release\net8.0\staticwebassets.build.json
