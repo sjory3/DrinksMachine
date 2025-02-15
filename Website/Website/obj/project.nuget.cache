@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qw3sWjzkHyU=",
+  "dgSpecHash": "Rxvl3ajd9g8=",
   "success": true,
   "projectFilePath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Website.csproj",
   "expectedPackageFiles": [
@@ -47,7 +47,8 @@
     "C:\\Users\\mgj32\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\9.0.2\\runtime.osx-arm64.runtime.native.system.io.ports.9.0.2.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\9.0.2\\runtime.osx-x64.runtime.native.system.io.ports.9.0.2.nupkg.sha512",
     "C:\\Users\\mgj32\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
-    "C:\\Users\\mgj32\\.nuget\\packages\\system.io.ports\\9.0.2\\system.io.ports.9.0.2.nupkg.sha512"
+    "C:\\Users\\mgj32\\.nuget\\packages\\system.io.ports\\9.0.2\\system.io.ports.9.0.2.nupkg.sha512",
+    "C:\\Users\\mgj32\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\8.0.11\\microsoft.netcore.app.host.linux-arm64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }
