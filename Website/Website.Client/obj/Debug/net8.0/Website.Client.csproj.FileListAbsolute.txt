@@ -2069,6 +2069,6 @@ C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\r
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\06xhlk2478-10qtdtf8da.gz
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\306m1unmgj-j2j1jdk9ss.gz
 C:\Users\mgj32\Documents\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\gai494obq8-kufizuu150.gz
-C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\06xhlk2478-uje4l4996j.gz
-C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\306m1unmgj-ww338guy0i.gz
-C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\gai494obq8-dz35bobq3v.gz
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\06xhlk2478-pfqzrbo3t8.gz
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\306m1unmgj-kr9ipslc8p.gz
+C:\Users\mgj32\Documents\GitHub\DrinksMachine\Website\Website.Client\obj\Debug\net8.0\compressed\gai494obq8-nqnqx3k16f.gz

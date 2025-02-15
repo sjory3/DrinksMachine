@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "Website.Services.ControllerService",
+    "Method": "SendCommand",
+    "RelativePath": "api/ControllerService/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
