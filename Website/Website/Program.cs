@@ -1,8 +1,11 @@
-//using Website.Client.Pages;
+using Microsoft.AspNetCore.Builder;
 using Website.Components;
 using Website.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Load configuration
+var configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
@@ -11,20 +14,20 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddHttpClient();
 
-//builder.Services.AddSingleton<DrinkDataService>(); // Ensure this is Singleton
+builder.Services.AddSingleton<DrinkDataService>(); // Ensure this is Singleton
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<DrinkDataService>(client =>
 {
-    client.BaseAddress = new Uri("https://localhost:44349"); // Set the base address for the API
+    client.BaseAddress = new Uri(configuration["ApiBaseAddress"] ?? "http://localhost:44349"); // Set the base address for the API
 });
 
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(builder =>
+    options.AddDefaultPolicy(policy =>
     {
-        builder.WithOrigins("https://localhost:44349") // Adjust the origin as needed
-               .AllowAnyHeader()
-               .AllowAnyMethod();
+        policy.WithOrigins(configuration["Cors:AllowedOrigins"] ?? "http://localhost:5000") // Adjust the origin as needed
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
 });
 
