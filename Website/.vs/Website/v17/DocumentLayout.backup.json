@@ -3,96 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\services\\drinkdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\services\\drinkdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\website.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\services\\controllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\services\\controllerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\services\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\services\\carouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\wwwroot\\data\\drinks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\data\\drinks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\models\\drink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\models\\alcohol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\models\\alcohol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\models\\liquid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\models\\liquid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\wwwroot\\data\\liquids.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\data\\liquids.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\wwwroot\\data\\alcohols.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\wwwroot\\data\\alcohols.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAC4A91-7FB6-4ED7-8FFF-C1EEC3A0475A}|Website.Client\\Website.Client.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website.client\\website.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FCAC4A91-7FB6-4ED7-8FFF-C1EEC3A0475A}|Website.Client\\Website.Client.csproj|solutionrelative:website.client\\website.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCAC4A91-7FB6-4ED7-8FFF-C1EEC3A0475A}|Website.Client\\Website.Client.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCAC4A91-7FB6-4ED7-8FFF-C1EEC3A0475A}|Website.Client\\Website.Client.csproj|solutionrelative:website.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|c:\\users\\mgj32\\documents\\github\\drinksmachine\\website\\website\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{084F13A9-0DD5-4770-9F93-5F9A7F2F8575}|Website\\Website.csproj|solutionrelative:website\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,289 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Website\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Website\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-20T20:03:28.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\appsettings.json",
               "RelativeDocumentMoniker": "Website\\appsettings.json",
               "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\appsettings.json",
               "RelativeToolTip": "Website\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-15T20:43:33.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "Website\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:16.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Website\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAKIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:16.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Alcohols.json",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Alcohols.json",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\data\\Alcohols.json",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Alcohols.json",
-              "RelativeToolTip": "Website\\wwwroot\\data\\Alcohols.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-12T08:25:16.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DrinkDataService.cs",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\DrinkDataService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\DrinkDataService.cs",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\DrinkDataService.cs",
-              "RelativeToolTip": "Website\\Services\\DrinkDataService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T08:25:16.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Website\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:16.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Program.cs",
               "RelativeDocumentMoniker": "Website\\Program.cs",
               "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Program.cs",
               "RelativeToolTip": "Website\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T08:25:16.89Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Website.csproj",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Website.csproj",
-              "RelativeDocumentMoniker": "Website\\Website.csproj",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Website.csproj",
-              "RelativeToolTip": "Website\\Website.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-13T11:37:54.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ControllerService.cs",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\ControllerService.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\ControllerService.cs",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\ControllerService.cs",
-              "RelativeToolTip": "Website\\Services\\ControllerService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCQAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T11:26:13.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Drinks.json",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Drinks.json",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\data\\Drinks.json",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Drinks.json",
-              "RelativeToolTip": "Website\\wwwroot\\data\\Drinks.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-12T08:25:16.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarouselController.cs",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\CarouselController.cs",
-              "RelativeDocumentMoniker": "Website\\Services\\CarouselController.cs",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Services\\CarouselController.cs",
-              "RelativeToolTip": "Website\\Services\\CarouselController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T12:38:44.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Liquids.json",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Liquids.json",
-              "RelativeDocumentMoniker": "Website\\wwwroot\\data\\Liquids.json",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\wwwroot\\data\\Liquids.json",
-              "RelativeToolTip": "Website\\wwwroot\\data\\Liquids.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwCkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-12T08:25:16.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Alcohol.cs",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Models\\Alcohol.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\Alcohol.cs",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Models\\Alcohol.cs",
-              "RelativeToolTip": "Website\\Models\\Alcohol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T08:25:16.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Website.Client.csproj",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website.Client\\Website.Client.csproj",
-              "RelativeDocumentMoniker": "Website.Client\\Website.Client.csproj",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website.Client\\Website.Client.csproj",
-              "RelativeToolTip": "Website.Client\\Website.Client.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-12T08:25:16.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Drink.cs",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Models\\Drink.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\Drink.cs",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Models\\Drink.cs",
-              "RelativeToolTip": "Website\\Models\\Drink.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T08:25:17.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Liquid.cs",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Models\\Liquid.cs",
-              "RelativeDocumentMoniker": "Website\\Models\\Liquid.cs",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Models\\Liquid.cs",
-              "RelativeToolTip": "Website\\Models\\Liquid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T08:25:17.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Routes.razor",
-              "RelativeToolTip": "Website\\Components\\Routes.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:17.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\App.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\App.razor",
-              "RelativeToolTip": "Website\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:17.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\_Imports.razor",
-              "RelativeToolTip": "Website\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:17.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\Pages\\Error.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "Website\\Components\\Pages\\Error.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:17.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Website\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Website\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-12T08:25:17.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website.Client\\Program.cs",
-              "RelativeDocumentMoniker": "Website.Client\\Program.cs",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website.Client\\Program.cs",
-              "RelativeToolTip": "Website.Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T08:25:17.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Website\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Website\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-12T08:25:17.092Z"
             }
           ]
         }

@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/obj/Debug/net8.0/linux-x64/scopedcss/projectbundle/Website.bundle.scp.css",
+      "PackagePath": "staticwebassets/Website.bundle.scp.css"
+    },
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/wwwroot/data/Alcohols.json",
+      "PackagePath": "staticwebassets/data/Alcohols.json"
+    },
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/wwwroot/data/Drinks.json",
+      "PackagePath": "staticwebassets/data/Drinks.json"
+    },
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/wwwroot/data/Liquids.json",
+      "PackagePath": "staticwebassets/data/Liquids.json"
+    },
+    {
+      "Id": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/linux-x64/staticwebassets/msbuild.Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/linux-x64/staticwebassets/msbuild.build.Website.props",
+      "PackagePath": "build\\Website.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/linux-x64/staticwebassets/msbuild.buildMultiTargeting.Website.props",
+      "PackagePath": "buildMultiTargeting\\Website.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/linux-x64/staticwebassets/msbuild.buildTransitive.Website.props",
+      "PackagePath": "buildTransitive\\Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

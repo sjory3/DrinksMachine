@@ -18,14 +18,14 @@ builder.Services.AddSingleton<DrinkDataService>(); // Ensure this is Singleton
 builder.Services.AddControllers();
 builder.Services.AddHttpClient<DrinkDataService>(client =>
 {
-    client.BaseAddress = new Uri(configuration["ApiBaseAddress"] ?? "http://localhost:44349"); // Set the base address for the API
+    client.BaseAddress = new Uri(configuration["ApiBaseAddress"] ?? "https://localhost:44349"); // Set the base address for the API
 });
 
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins(configuration["Cors:AllowedOrigins"] ?? "http://localhost:5000") // Adjust the origin as needed
+        policy.WithOrigins(configuration["Cors:AllowedOrigins"] ?? "https://localhost:5000") // Adjust the origin as needed
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -52,3 +52,12 @@ app.MapRazorComponents<App>()
     .AddAdditionalAssemblies(typeof(Website.Client._Imports).Assembly);
 
 app.Run();
+
+
+
+
+
+
+
+
+

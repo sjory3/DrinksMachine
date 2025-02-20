@@ -89,5 +89,22 @@
       }
     ],
     "Alcohols": []
+  },
+  {
+    "Name": "test",
+    "Creator": "test",
+    "Liquids": [
+      {
+        "Name": "Milk",
+        "Volume": 22.0
+      }
+    ],
+    "Alcohols": [
+      {
+        "Name": "Rum",
+        "Volume": 11.0,
+        "AlcoholContent": 89.0
+      }
+    ]
   }
 ]
