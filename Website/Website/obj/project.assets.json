@@ -1631,7 +1631,7 @@
         }
       }
     },
-    "net8.0/linux-x64": {
+    "net8.0/linux-arm64": {
       "Microsoft.AspNetCore.Authorization/8.0.11": {
         "type": "package",
         "dependencies": {
@@ -2080,85 +2080,85 @@
       "runtime.android-arm.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.android-arm64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.android-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.android-x86.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.linux-arm.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.linux-arm64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {}
         }
       },
       "runtime.linux-bionic-arm64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.linux-bionic-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.linux-musl-arm.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.linux-musl-arm64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.linux-musl-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.linux-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.maccatalyst-arm64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.maccatalyst-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.native.System.IO.Ports/9.0.2": {
@@ -2185,13 +2185,13 @@
       "runtime.osx-arm64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "runtime.osx-x64.runtime.native.System.IO.Ports/9.0.2": {
         "type": "package",
         "native": {
-          "runtimes/linux-x64/native/_._": {}
+          "runtimes/linux-arm64/native/_._": {}
         }
       },
       "System.IO.Pipelines/8.0.0": {
@@ -3554,32 +3554,39 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "C:\\Users\\mgj32\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/Website.csproj",
+      "projectUniqueName": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Website.csproj",
       "projectName": "Website",
-      "projectPath": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/Website.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website/obj/",
+      "projectPath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\Website.csproj",
+      "packagesPath": "C:\\Users\\mgj32\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mgj32\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website.Client/Website.Client.csproj": {
-              "projectPath": "/mnt/c/Users/mgj32/Documents/GitHub/DrinksMachine/Website/Website.Client/Website.Client.csproj"
+            "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website.Client\\Website.Client.csproj": {
+              "projectPath": "C:\\Users\\mgj32\\Documents\\GitHub\\DrinksMachine\\Website\\Website.Client\\Website.Client.csproj"
             }
           }
         }
@@ -3592,8 +3599,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -3623,6 +3631,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-arm64",
+            "version": "[8.0.11, 8.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3631,11 +3645,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "linux-x64": {
+      "linux-arm64": {
         "#import": []
       }
     }
